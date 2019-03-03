@@ -1,0 +1,164 @@
+body {
+  background-image: url("bgpic3.jpg");
+  background-position: static;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 50%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-transparent-25 {   
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-fixed-top .navbar-collapse {
+  max-height: none;
+}
+
+.white {
+  color: lightgray;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.pr-50 {
+  padding-right: 1rem;
+}
+
+.opacity-77 {
+  opacity: 0.77;
+}
+
+.circle-img {
+  background-image: url("headshot.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin-left: 520px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.octicon {
+  fill: white;
+}
+
+/* .fa-linkedin {
+  border: 1px solid white ;
+  fill: pink;
+  color: pink;
+} */
+
+/* .App-container {
+  display: flex;
+  justify-content: center;
+} */
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.pb-4 {
+  padding-bottom: 0;
+}
+
+.pt-5 {
+  padding-top: 5;
+}
+
+.fs-10 {
+  font-size: 10rem;
+}
+
+.fs-5 {
+  font-size: 5rem;
+}
+
+.margin-right-200 {
+  margin-right: 200px;
+}
+
+
+/* Responsie Design */
+
+/* iPhone 5 */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+
+  .App {
+    display: inline-flex;
+  }
+  .circle-img {
+    height: 300px;
+    width: 250px;
+    margin-left: 5rem;
+  }
+  .footer {
+    font-size: 2rem;
+  }
+}
+
+/* iPhone 6/7/8 */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+  
+  .App {
+    display: inline-flex;
+  }
+  .circle-img {
+    height: 300px;
+    width: 250px;
+    margin-left: 5rem;
+  }
+  .footer {
+    font-size: 2rem;
+  }
+
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px) {
+
+  .App {
+    display: inline-flex;
+  }
+  .circle-img {
+    height: 300px;
+    width: 250px;
+    margin-left: 5rem;
+  }
+  .footer {
+    font-size: 2rem;
+  }
+
+}
