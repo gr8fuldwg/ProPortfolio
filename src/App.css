@@ -106,6 +106,10 @@ body {
 and (min-device-width: 320px)
 and (max-device-width: 568px) {
 
+  .App-footer {
+    background-color: black;
+  }
+
   .App {
     /* display: inline-flex; */
   }
@@ -124,6 +128,10 @@ and (max-device-width: 568px) {
 and (min-device-width: 375px)
 and (max-device-width: 667px) {
   
+  .App-footer {
+    background-color: black;
+  }
+
   .App {
     /* display: inline-flex; */
   }
@@ -143,6 +151,10 @@ and (max-device-width: 667px) {
 and (min-device-width: 414px)
 and (max-device-width: 736px) {
 
+  .App-footer {
+    background-color: black;
+  }
+
   .App {
     /* display: inline-flex; */
   }
@@ -161,5 +173,9 @@ and (max-device-width: 736px) {
 @media only screen 
 and (min-device-width: 375px)
 and (max-device-width: 812px) {
+
+  .App-footer {
+    background-color: black;
+  }
 
 }
