@@ -58,6 +58,16 @@ body {
   border-color: white;
 }
 
+.jokes-img {
+  background-image: url("ChuckJokesPic.png");
+  /* background-size: inherit;
+  background-repeat: no-repeat; */
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
 .App-header {
   display: flex;
   justify-content: center;

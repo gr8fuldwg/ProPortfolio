@@ -42,7 +42,7 @@ class App extends Component {
                         </button>
                       </div>
                       <div className="modal-body">
-                        A creative web developer who is passionate about coding. Loves learning and implementing new techonologies while staying up to speed on modern computing. Graduate of <a  href="http://gainesvilledevacademy.com/">Gainesville Dev Academy</a> (GDEV), a fully immersive coding bootcamp. Let's discuss what you or your business needs!
+                        A creative web developer who is passionate about coding. Loves learning and implementing new techonologies while staying up to speed on modern computing. Graduate of <a href="http://gainesvilledevacademy.com/">Gainesville Dev Academy</a> (GDEV), a fully immersive coding bootcamp. Let's discuss what you or your business needs!
                 </div>
                       <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -107,9 +107,26 @@ class App extends Component {
           </div>
         </section>
 
+
+        {/* <section>
+          <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img src="..." className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src="..." className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src="..." className="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+        </section> */}
+
         <section className="App-footer navbar fixed-bottom  text-white">
           <div className="d-flex pl-4 pb-4">
-            email: jonjosephson1@gmail.com 
+            email: jonjosephson1@gmail.com
           </div>
           <div className="d-flex pr-4 pb-4">
             <a className="text-white" href="tel: 3522193194">cell: 352-219-3194</a>
@@ -117,6 +134,7 @@ class App extends Component {
         </section>
 
       </div>
+
 
     );
   }
