@@ -102,7 +102,7 @@ class App extends Component {
 
 
         <section>
-          <div className="App-container  d-flex justify-content-center shadow-lg">
+          <div className="d-flex justify-content-center shadow-lg">
             <h1 className="pl-3 mt-3 footer text-white text-center">Hi, I'm Jon ;)<br /> I develop computer software.</h1>
           </div>
         </section>

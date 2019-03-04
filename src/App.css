@@ -68,12 +68,6 @@ body {
   fill: white;
 }
 
-/* .fa-linkedin {
-  border: 1px solid white ;
-  fill: pink;
-  color: pink;
-} */
-
 /* .App-container {
   display: flex;
   justify-content: center;
@@ -105,7 +99,7 @@ body {
 }
 
 
-/* Responsie Design */
+/* Responsive Design */
 
 /* iPhone 5 */
 @media only screen
@@ -113,7 +107,7 @@ and (min-device-width: 320px)
 and (max-device-width: 568px) {
 
   .App {
-    display: inline-flex;
+    /* display: inline-flex; */
   }
   .circle-img {
     height: 300px;
@@ -131,7 +125,7 @@ and (min-device-width: 375px)
 and (max-device-width: 667px) {
   
   .App {
-    display: inline-flex;
+    /* display: inline-flex; */
   }
   .circle-img {
     height: 300px;
@@ -150,7 +144,7 @@ and (min-device-width: 414px)
 and (max-device-width: 736px) {
 
   .App {
-    display: inline-flex;
+    /* display: inline-flex; */
   }
   .circle-img {
     height: 300px;
@@ -160,5 +154,12 @@ and (max-device-width: 736px) {
   .footer {
     font-size: 2rem;
   }
+
+}
+
+/* iPhone 10 */
+@media only screen 
+and (min-device-width: 375px)
+and (max-device-width: 812px) {
 
 }
