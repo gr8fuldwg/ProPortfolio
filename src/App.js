@@ -112,7 +112,7 @@ class App extends Component {
             email: jonjosephson1@gmail.com 
           </div>
           <div className="d-flex pr-4 pb-4">
-            <a className="text-white" href="tel:+3522193194">cell: 352-219-3194</a>
+            <a className="text-white" href="tel: 3522193194">cell: 352-219-3194</a>
           </div>
         </section>
 
