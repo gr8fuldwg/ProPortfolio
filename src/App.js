@@ -42,7 +42,7 @@ class App extends Component {
                         </button>
                       </div>
                       <div className="modal-body">
-                        A creative web developer who is passionate about coding. Loves learning and implementing new techonologies while staying up to speed on modern computing. Graduate of Gainesville Dev Academy (GDEV), a fully immersive coding bootcamp. Let's discuss what you or your business needs!
+                        A creative web developer who is passionate about coding. Loves learning and implementing new techonologies while staying up to speed on modern computing. Graduate of <a  href="http://gainesvilledevacademy.com/">Gainesville Dev Academy</a> (GDEV), a fully immersive coding bootcamp. Let's discuss what you or your business needs!
                 </div>
                       <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
