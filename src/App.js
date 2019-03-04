@@ -107,6 +107,15 @@ class App extends Component {
           </div>
         </section>
 
+        <section className="App-footer navbar fixed-bottom  text-white">
+          <div className="d-flex pl-4 pb-4">
+            email: jonjosephson1@gmail.com 
+          </div>
+          <div className="d-flex pr-4 pb-4">
+            <a className="text-white" href="tel:+3522193194">cell: 352-219-3194</a>
+          </div>
+        </section>
+
       </div>
 
     );
