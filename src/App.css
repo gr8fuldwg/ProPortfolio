@@ -13,6 +13,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.lh-5 {
+  line-height: 5rem;
+}
+
+.lh-10 {
+  line-height: 10rem;
+}
+
+.lh-20  {
+  line-height: 20rem;
+}
+
 .navbar-transparent-25 {   
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -58,20 +70,60 @@ body {
   border-color: white;
 }
 
+.weather-img-1 {
+  background-image: url("WeatherAppPic1.PNG");
+  background-position: center;
+  background-color: blue;
+  background-size: 13rem;
+  background-repeat: no-repeat;
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+}
+
+.weather-img-2 {
+  background-image: url("WeatherAppPic2.PNG");
+  background-position: center;
+  background-size: 15rem;
+  background-repeat: no-repeat;
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+}
+
+.weather-img-3 {
+  background-image: url("WeatherAppPic3.PNG");
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: 15rem;
+  background-repeat: no-repeat;
+  background-color: blue;
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+}
+
 .jokes-img {
   background-image: url("ChuckJokesPic.png");
-  /* background-size: inherit;
-  background-repeat: no-repeat; */
-  height: 5rem;
-  width: 5rem;
-  display: flex;
-  justify-content: center;
+  background-position: center;
+  background-size: 28rem;
+  background-repeat: no-repeat;
+  height: 15rem;
+  width: 15rem;
+  /* display: none; */
+  /* margin-bottom: 4rem;
+  margin-left: 4rem; */
 }
 
 .App-header {
   display: flex;
   justify-content: center;
   
+}
+
+.App-footer {
+  position: sticky;
+  height: 4rem;
 }
 
 .octicon {

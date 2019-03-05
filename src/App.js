@@ -103,29 +103,37 @@ class App extends Component {
 
         <section>
           <div className="d-flex justify-content-center shadow-lg">
-            <h1 className="pl-3 mt-3 footer text-white text-center">Hi, I'm Jon ;)<br /> I develop computer software.</h1>
+            <h1 className="lh-10 pl-3 mt-3 footer text-white text-center">Hi, I'm Jon ;)<br /> I'm a web developer and programmer living in Gainesville, FL, USA</h1>
+          </div>
+        </section>
+
+        <div className="">
+          <h2 className="lh-5 mt-4 text-white text-center">A few projects to checkout</h2>
+        </div>
+        
+        <section className="d-flex justify-content-center lh-5 ml-4">
+          <div className="col">
+            <div className="d-flex justify-content-center">Jokes API</div>
+            <a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="ml-5 mb-4 jokes-img rounded-lg d-inline" /></a>
+          </div>
+          <div className="col">
+            <div className="d-flex justify-content-center">Current Weather App</div>
+            <a href="https://pure-castle-46730.herokuapp.com/"><img className="ml-5 mb-4 weather-img-3 rounded d-inline" /></a>
+          </div>
+          <div className="col">
+            <div className="d-flex justify-content-center">Hourly Weather</div>
+            <a href="https://pure-castle-46730.herokuapp.com/"><img className="ml-5 mb-4 weather-img-2 rounded float-none d-inline" /></a>
+          </div>
+          <div className="col">
+            <div className="d-flex justify-content-center">Daily Weather</div>
+            <a href="https://pure-castle-46730.herokuapp.com/"><img className="ml-5 mb-4 weather-img-1 rounded float-none d-inline" /></a>
           </div>
         </section>
 
 
-        {/* <section>
-          <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img src="..." className="d-block w-100" alt="..." />
-              </div>
-              <div className="carousel-item">
-                <img src="..." className="d-block w-100" alt="..." />
-              </div>
-              <div className="carousel-item">
-                <img src="..." className="d-block w-100" alt="..." />
-              </div>
-            </div>
-          </div>
-        </section> */}
 
-        <section className="App-footer navbar fixed-bottom  text-white">
-          <div className="d-flex pl-4 pb-4">
+        <section className="App-footer navbar fixed-bottom navbar-transparent-25 text-white">
+          <div className="d-flex  pt-4 pl-4 pb-4">
             email: jonjosephson1@gmail.com
           </div>
           <div className="d-flex pr-4 pb-4">
