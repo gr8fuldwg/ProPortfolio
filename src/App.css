@@ -13,6 +13,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.green-hover:hover {
+  color: chartreuse;
+}
+
+.hover-thumb {
+  opacity: .5;
+}
+
+.hover-thumb:hover {
+  opacity: 1;
+  border-radius: 10px;
+
+}
+
+.thumb-text {
+  font-size: 20px;
+  /* font-weight: 400; */
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  color: white;
+}
+
 .lh-5 {
   line-height: 5rem;
 }
@@ -74,11 +95,13 @@ body {
   background-image: url("WeatherAppPic1.PNG");
   background-position: center;
   background-color: blue;
-  background-size: 13rem;
+  background-size: 15rem;
   background-repeat: no-repeat;
   height: 15rem;
   width: 15rem;
   display: flex;
+  
+  
 }
 
 .weather-img-2 {
@@ -88,7 +111,9 @@ body {
   background-repeat: no-repeat;
   height: 15rem;
   width: 15rem;
-  display: flex;
+  /* display: flex; */
+  
+  
 }
 
 .weather-img-3 {
@@ -130,10 +155,6 @@ body {
   fill: white;
 }
 
-/* .App-container {
-  display: flex;
-  justify-content: center;
-} */
 
 .center {
   display: flex;
