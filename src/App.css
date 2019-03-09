@@ -13,13 +13,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a, u {
+  text-decoration: none !important;
+}
+
 /* .ocitcon-hover:hover {
   fill: chartreuse !important;
   color: chartreuse;
 } */
 
 .green-hover:hover {
-  color: rgb(95, 194, 233);
+  color: mediumspringgreen;
 }
 
 .hover-thumb {
@@ -28,14 +32,10 @@ body {
 
 .hover-thumb:hover {
   opacity: 1;
-  border-radius: 10px;
-
 }
 
 .thumb-text {
   font-size: 20px;
-  /* font-weight: 400; */
-  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   color: white;
   text-shadow: 0 0 10px rgba(255, 255, 255, .8);
 }
@@ -123,8 +123,6 @@ body {
   height: 15rem;
   width: 15rem;
   /* display: flex; */
-  
-  
 }
 
 .weather-img-3 {

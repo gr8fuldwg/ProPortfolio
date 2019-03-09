@@ -37,12 +37,12 @@ class App extends Component {
                   <div className="modal-dialog" role="document">
                     <div className="modal-content d-flex justify-content-center">
                       <div className="modal-header">
-                        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" className="close green-hover" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                       <div className="modal-body">
-                        A creative web developer who is passionate about coding. Loves learning and implementing new techonologies while staying up to speed on modern computing. Graduate of <a href="http://gainesvilledevacademy.com/">Gainesville Dev Academy</a> (GDEV), a fully immersive coding bootcamp. Let's discuss what you or your business needs!
+                        A creative web developer who is passionate about coding. Loves learning and implementing new techonologies while staying up to speed on modern computing. Graduate of <a href="http://gainesvilledevacademy.com/" className="green-hover">Gainesville Dev Academy</a> (GDEV), a fully immersive coding bootcamp. Let's discuss what you or your business needs!
                 </div>
                       <div className="modal-footer">
                         <button type="button" className="btn nav-glow green-hover btn-secondary" data-dismiss="modal">Close</button>
@@ -132,12 +132,18 @@ class App extends Component {
 
 
 
-        <section className="App-footer navbar green-hover fixed-bottom navbar-transparent-25 text-white">
-          <div className="d-flex green-hover pt-4 pl-4 pb-4">
-            email: jonjosephson1@gmail.com
-          </div>
-          <div className="d-flex green-hover pr-4 pb-4">
-            <a className="white green-hover" href="tel: 3522193194">cell: 352-219-3194</a>
+        {/* <a href="mailto:youremailaddress">Email Me</a> */}
+        <section className="App-footer navbar nav-glow fixed-bottom navbar-transparent-25 white">
+          
+          <a href="mailto:jonjosephson1@gmail.com" className="d-flex white green-hover pt-2 pl-4 pb-4">
+          
+          email: jonjosephson1@gmail.com</a>
+          
+          <div className="d-flex green-hover pt-2 pr-4 pb-4">
+            <a className="white green-hover" href="tel: 3522193194">
+            
+            cell: 352-219-3194</a>
+          
           </div>
         </section>
 
