@@ -13,8 +13,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.green-hover:hover {
+/* .ocitcon-hover:hover {
+  fill: chartreuse !important;
   color: chartreuse;
+} */
+
+.green-hover:hover {
+  color: rgb(95, 194, 233);
 }
 
 .hover-thumb {
@@ -32,6 +37,7 @@ body {
   /* font-weight: 400; */
   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, .8);
 }
 
 .lh-5 {
@@ -46,12 +52,17 @@ body {
   line-height: 20rem;
 }
 
+.nav-glow {
+  text-shadow: 0 0 10px rgba(255, 255, 255, .8);
+}
+
 .navbar-transparent-25 {   
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 .navbar-fixed-top .navbar-collapse {
   max-height: none;
+ 
 }
 
 .white {

@@ -9,11 +9,11 @@ class App extends Component {
         <div className="body">
 
           <nav className="navbar-expand d-flex navbar-transparent-25 d-flex pt-2 pb-2">
-            <a className="navbar-brand green-hover fs-24 pl-4 white" href="http://www.github.com/gr8fuldwg">Jon Josephson</a>
+            <a className="navbar-brand nav-glow green-hover fs-24 pl-4 white" href="http://www.github.com/gr8fuldwg">Jon Josephson</a>
             {/* <a href="#"></a> */}
             <ul className="navbar-nav d-flex flex-fill justify-content-between pr-4 fs-22">
               <li className="nav-item dropdown ">
-                <a className="nav-link ml-4 green-hover dropdown-toggle white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                <a className="nav-link ml-4 nav-glow green-hover dropdown-toggle white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
                 <div className="dropdown-menu bg-dark">
                   <a className="dropdown-item white" href="https://pure-castle-46730.herokuapp.com/">Collaborative Weather App</a>
                   <div className="dropdown-divider"></div>
@@ -30,7 +30,7 @@ class App extends Component {
                 </div>
               </li>
               <li className="nav-item " data-toggle="modal" data-target="#exampleModalLong">
-                <a className="nav-link green-hover margin-right-200 justify-content-center white" href="#">About Me</a>
+                <a className="nav-link nav-glow green-hover margin-right-200 justify-content-center white" href="#">About Me</a>
 
                 {/* <!-- Modal --> */}
                 <div className="modal fade" id="exampleModalLong" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -45,7 +45,7 @@ class App extends Component {
                         A creative web developer who is passionate about coding. Loves learning and implementing new techonologies while staying up to speed on modern computing. Graduate of <a href="http://gainesvilledevacademy.com/">Gainesville Dev Academy</a> (GDEV), a fully immersive coding bootcamp. Let's discuss what you or your business needs!
                 </div>
                       <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" className="btn nav-glow green-hover btn-secondary" data-dismiss="modal">Close</button>
                       </div>
                     </div>
                   </div>
@@ -53,7 +53,7 @@ class App extends Component {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link green-hover white" data-toggle="modal" data-target="#exampleModal" href="#">Contact</a>
+                <a className="nav-link green-hover nav-glow white" data-toggle="modal" data-target="#exampleModal" href="#">Contact</a>
 
                 {/* Contact Modal */}
 
@@ -90,7 +90,7 @@ class App extends Component {
               </li>
             </ul>
 
-            <a href="http://www.github.com/gr8fuldwg"><svg height="32" className="octicon green-hover octicon-mark-github text-right" viewBox="0 0 16 16" version="1.1" width="32"
+            <a href="http://www.github.com/gr8fuldwg"><svg height="32" className="octicon octicon-mark-github text-right" viewBox="0 0 16 16" version="1.1" width="32"
               aria-hidden="true">
               <path fillRule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
             </svg></a>
@@ -114,7 +114,7 @@ class App extends Component {
         <section className="navbar-transparent-25 shadow-large rounded d-flex justify-content-center lh-5 mb-4 mr-4 ml-4">
           <div className="col">
             <div className="thumb-text d-flex justify-content-center">Jokes API</div>
-            <a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb ml-5 mb-4 border-0 jokes-img rounded d-inline" /></a>
+            <a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded d-inline" /></a>
           </div>
           <div className="col">
             <div className="thumb-text d-flex justify-content-center">Current Weather App</div>
@@ -133,7 +133,7 @@ class App extends Component {
 
 
         <section className="App-footer navbar green-hover fixed-bottom navbar-transparent-25 text-white">
-          <div className="d-flex pt-4 pl-4 pb-4">
+          <div className="d-flex green-hover pt-4 pl-4 pb-4">
             email: jonjosephson1@gmail.com
           </div>
           <div className="d-flex green-hover pr-4 pb-4">
