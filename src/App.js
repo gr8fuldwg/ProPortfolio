@@ -8,25 +8,25 @@ class App extends Component {
 
         <div className="body">
 
-          <nav className="navbar-expand d-flex navbar-transparent-25 d-flex pt-2 pb-2">
+          <nav className="navbar-expand  d-flex navbar-transparent-25 d-flex pt-2 pb-2">
             <a className="navbar-brand nav-glow green-hover fs-24 pl-4 white" href="http://www.github.com/gr8fuldwg">Jon Josephson</a>
             {/* <a href="#"></a> */}
             <ul className="navbar-nav d-flex flex-fill justify-content-between pr-4 fs-22">
               <li className="nav-item dropdown ">
                 <a className="nav-link ml-4 nav-glow green-hover dropdown-toggle white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-                <div className="dropdown-menu bg-dark">
-                  <a className="dropdown-item white" href="https://pure-castle-46730.herokuapp.com/">Collaborative Weather App</a>
+                <div className="dropdown-menu  bg-dark">
+                  <a className="dropdown-item white  drop-green" href="https://pure-castle-46730.herokuapp.com/">Collaborative Weather App</a>
                   <div className="dropdown-divider"></div>
-                  <h6 className="dropdown-header green-hover font-weight-bold">CSS-MIMICWORK </h6>
-                  <a className="dropdown-item white" href="https://gr8fuldwg.github.io/css-mimicwork/">Mimicwork Homepage</a>
-                  <a className="dropdown-item white" href="https://gr8fuldwg.github.io/css-mimicwork/spotify">Spotify</a>
-                  <a className="dropdown-item white" href="https://gr8fuldwg.github.io/css-mimicwork/github-nav">Github-Nav</a>
-                  <a className="dropdown-item white" href="https://gr8fuldwg.github.io/css-mimicwork/pinterest-page">Pinterest Page</a>
-                  <a className="dropdown-item white" href="https://gr8fuldwg.github.io/css-mimicwork/youtube-sidenav">YouTube-SideNav</a>
+                  <h6 className="dropdown-header font-weight-bold">CSS-MIMICWORK </h6>
+                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/">Mimicwork Homepage</a>
+                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/spotify">Spotify</a>
+                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/github-nav">Github-Nav</a>
+                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/pinterest-page">Pinterest Page</a>
+                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/youtube-sidenav">YouTube-SideNav</a>
                   <div className="dropdown-divider"></div>
-                  <a className="dropdown-item  white" href="https://gr8fuldwg.github.io/lite-brite/">Lite-Brite Game</a>
+                  <a className="dropdown-item  white drop-green " href="https://gr8fuldwg.github.io/lite-brite/">Lite-Brite Game</a>
                   <div className="dropdown-divider"></div>
-                  <a className="dropdown-item white" href="https://gr8fuldwg.github.io/chuck-jokes/">'Jokes' API</a>
+                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/chuck-jokes/">'Jokes' API</a>
                 </div>
               </li>
               <li className="nav-item " data-toggle="modal" data-target="#exampleModalLong">
@@ -103,50 +103,65 @@ class App extends Component {
 
         <section>
           <div className="d-flex justify-content-center shadow-lg">
-            <h1 className="lh-10 pl-3 mt-3 footer text-white text-center">Hi, I'm Jon ;)<br /> I'm a web developer and programmer living in Gainesville, FL, USA</h1>
+            <h1 className="lh-10 pl-3 mt-3 footer text-white text-center">Hi, I'm Jon ;)</h1>
+          </div>
+          <div>
+            <h1 className="fs-3 lh-10 pl-3 mt-3 footer text-white text-center"> I'm a web developer and programmer living in Gainesville, FL, USA</h1>
           </div>
         </section>
 
-        <div className="">
+        <div className="projects-text">
           <h2 className="lh-5 mt-4 text-white shadow-large text-center">A few projects to checkout</h2>
         </div>
 
-        <section className="navbar-transparent-25 shadow-large rounded d-flex justify-content-center lh-5 mb-4 mr-4 ml-4">
+        <section className="navbar-transparent-25 scrolling-wrapper shadow-large rounded d-flex justify justify-content-center lh-5 mb-4 mr-4 ml-4">
           <div className="col">
             <div className="thumb-text d-flex justify-content-center">Jokes API</div>
             <a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded d-inline" /></a>
           </div>
           <div className="col">
-            <div className="thumb-text d-flex justify-content-center">Current Weather App</div>
+            <div className="thumb-text current d-flex justify-content-center">Current Weather App</div>
             <a href="https://pure-castle-46730.herokuapp.com/"><img className="hover-thumb  ml-5 mb-4 weather-img-3 rounded d-inline" /></a>
           </div>
           <div className="col">
-            <div className="thumb-text d-flex justify-content-center">Hourly Weather</div>
+            <div className="thumb-text hourly-daily-text d-flex justify-content-center">Hourly Weather</div>
             <a href="https://pure-castle-46730.herokuapp.com/"><img className="hover-thumb  ml-5 mb-4 weather-img-2 rounded float-none d-inline" /></a>
           </div>
           <div className="col">
-            <div className="thumb-text d-flex justify-content-center">Daily Weather</div>
-            <a href="https://pure-castle-46730.herokuapp.com/"><img className="hover-thumb  ml-5 mb-4 weather-img-1 rounded float-none d-inline" /></a>
+            <div className="thumb-text hourly-daily-text d-flex justify-content-center">Daily Weather</div>
+            <a href="https://pure-castle-46730.herokuapp.com/"><img className="hover-thumb  daily ml-5 mb-4 weather-img-1 rounded float-none d-inline" /></a>
           </div>
         </section>
+
+        {/* <div className="scrolling-wrapper navbar-transparent-25 shadow-large rounded ">
+          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
+          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
+          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
+          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
+          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
+          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
+          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
+          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
+          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
+        </div> */}
 
 
 
         {/* <a href="mailto:youremailaddress">Email Me</a> */}
-        <section className="App-footer navbar nav-glow fixed-bottom navbar-transparent-25 white">
-          
+        <section className="App-footer navbar  nav-glow fixed-bottom navbar-transparent-25 white">
+
           <a href="mailto:jonjosephson1@gmail.com" className="d-flex white green-hover pt-2 pl-4 pb-4">
-          
-          email: jonjosephson1@gmail.com</a>
-          
+
+            email: jonjosephson1@gmail.com</a>
+
           <div className="d-flex green-hover pt-2 pr-4 pb-4">
             <a className="white green-hover" href="tel: 3522193194">
-            
-            cell: 352-219-3194</a>
-          
-          </div>
-        </section>
 
+              cell: 352-219-3194</a>
+
+          </div>
+
+        </section>
       </div>
 
 
