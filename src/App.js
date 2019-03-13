@@ -6,12 +6,12 @@ class App extends Component {
     return (
       <div className="App">
 
-        <div className="body">
+        <div className="body body-2">
 
-          <nav className="navbar-expand  d-flex navbar-transparent-25 d-flex pt-2 pb-2">
+          <nav className="navbar-expand scrolling-wrapper d-flex navbar-transparent-25 d-flex pt-2 pb-2">
             <a className="navbar-brand nav-glow green-hover fs-24 pl-4 white" href="http://www.github.com/gr8fuldwg">Jon Josephson</a>
             {/* <a href="#"></a> */}
-            <ul className="navbar-nav d-flex flex-fill justify-content-between pr-4 fs-22">
+            <ul className="navbar-nav scrollable-menu d-flex flex-fill justify-content-between pr-4 fs-22">
               <li className="nav-item dropdown ">
                 <a className="nav-link ml-4 nav-glow green-hover dropdown-toggle white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
                 <div className="dropdown-menu  bg-dark">
@@ -30,7 +30,7 @@ class App extends Component {
                 </div>
               </li>
               <li className="nav-item " data-toggle="modal" data-target="#exampleModalLong">
-                <a className="nav-link nav-glow green-hover margin-right-200 justify-content-center white" href="#">About Me</a>
+                <a className="nav-link about-me nav-glow green-hover margin-right-200 justify-content-center white" href="#">About Me</a>
 
                 {/* <!-- Modal --> */}
                 <div className="modal fade" id="exampleModalLong" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -102,19 +102,19 @@ class App extends Component {
 
 
         <section>
-          <div className="d-flex justify-content-center shadow-lg">
+          <div className="d-flex justify-content-center">
             <h1 className="lh-10 pl-3 mt-3 footer text-white text-center">Hi, I'm Jon ;)</h1>
           </div>
           <div>
-            <h1 className="fs-3 lh-10 pl-3 mt-3 footer text-white text-center"> I'm a web developer and programmer living in Gainesville, FL, USA</h1>
+            <h1 className="lh-5 pl-3 mt-3 footer text-white text-center"> I'm a web developer and programmer living in Gainesville, FL, USA</h1>
           </div>
         </section>
 
         <div className="projects-text">
-          <h2 className="lh-5 mt-4 text-white shadow-large text-center">A few projects to checkout</h2>
+          <h2 className="lh-10 mt-4 text-white shadow-large text-center">A few projects to checkout</h2>
         </div>
 
-        <section className="navbar-transparent-25 scrolling-wrapper shadow-large rounded d-flex justify justify-content-center lh-5 mb-4 mr-4 ml-4">
+        <section className="navbar-transparent-25 lh-5 scrolling-wrapper rounded d-flex justify justify-content-center  mb-4 mr-4 ml-4" >
           <div className="col">
             <div className="thumb-text d-flex justify-content-center">Jokes API</div>
             <a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded d-inline" /></a>

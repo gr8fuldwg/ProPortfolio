@@ -20,7 +20,6 @@ a, u {
 .drop-green:hover {
   background-color: mediumspringgreen;
   color: black;
-
 }
 
 .green-hover:hover {
@@ -41,7 +40,18 @@ a, u {
   text-shadow: 0 0 10px rgba(255, 255, 255, .8);
 }
 
+/* .scrolling-wrapper {
+  overflow-x: scroll;
+  /* overflow-y: hidden; */
+  /* white-space: nowrap; */
+  /* -webkit-overflow-scrolling: touch;
+} */ */
+
 .lh-5 {
+  line-height: 4rem !important;
+}
+
+.big {
   line-height: 5rem;
 }
 
@@ -63,7 +73,6 @@ a, u {
 
 .navbar-fixed-top .navbar-collapse {
   max-height: none;
- 
 }
 
 .white {
@@ -198,10 +207,58 @@ a, u {
 and (min-device-width: 320px)
 and (max-device-width: 568px) {
   
-  .body {
-    background-position: top ;
+  body {
+    background-position: top !important;
     background-repeat: no-repeat ;
-    background-size: 70vh ;
+    background-size: 70vh !important;
+  }
+
+  .text-white {
+    color: black !important;
+    padding: 1rem;
+  }
+
+  .App-footer {
+    height: 5rem;
+    justify-content: center;
+    background-color: black;
+  }
+
+  .circle-img {
+    border-width: 5px;
+  }
+
+  .drop-scroll {
+    overflow: hidden;
+  }
+
+  .about-me {
+    margin-right: 0;
+  }
+  
+  /* .position-absolute {
+    position: absolute;
+  } */
+
+  .scroll {
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
+    /* white-space: nowrap; */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* white-space: nowrap; */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .scrolling-wrapper-2 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
   }
 
   .circle-img {
@@ -244,20 +301,17 @@ and (max-device-width: 568px) {
     line-height: 3rem;
   }
 
-  .lh-5 {
-    line-height: 3rem;
-  }
-  
-  .scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-  }
+  /* .line-height-5 {
+    line-height: 5rem !important;
+  } */
 
-  .card {
+  /* .lh-5 {
+    line-height: 5rem !important;
+  } */
+
+  /* .card {
       display: inline-block;
-    }
+    } */
   
   .App-footer {
     background-color: black;
@@ -266,7 +320,7 @@ and (max-device-width: 568px) {
   .circle-img {
     height: 300px;
     width: 250px;
-    /* margin-left: 5rem; */
+    margin-left: 5rem;
   }
 
   .footer {
@@ -279,14 +333,30 @@ and (max-device-width: 568px) {
 and (min-device-width: 375px)
 and (max-device-width: 667px) {
   
-  .body {
+  body {
     background-position: top !important;
     background-repeat: no-repeat;
     background-size: 70vh !important;
   }
 
+  .text-white {
+    color: black !important;
+    padding: 1rem;
+  }
+
+  .App-footer {
+    height: 5rem;
+    /* justify-content: center; */
+    background-color: black;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+  }
+
   .circle-img {
-    margin-left: 2.2rem !important;
+    margin-left: 4rem !important;
+    border-width: 5px;
+    height: 300px;
+    width: 250px;
   }
 
   .fs-3 {
@@ -324,19 +394,14 @@ and (max-device-width: 667px) {
     -webkit-overflow-scrolling: touch;
   }
     
-  .card {
+  /* .card {
       display: inline-block;
-    }
+    } */
 
   .App-footer {
     background-color: black;
   }
 
-  .circle-img {
-    height: 300px;
-    width: 250px;
-    /* margin-left: 5rem; */
-  }
   .footer {
     font-size: 2rem;
   }
@@ -348,14 +413,10 @@ and (max-device-width: 667px) {
 and (min-device-width: 414px)
 and (max-device-width: 736px) {
 
-  .body {
+  body {
     background-position: top !important;
     background-repeat: no-repeat;
     background-size: 70vh !important;
-  }
-
-  .circle-img {
-    margin-left: 2.2rem !important;
   }
 
   .fs-3 {
@@ -403,7 +464,7 @@ and (max-device-width: 736px) {
   .circle-img {
     height: 300px;
     width: 250px;
-    /* margin-left: 5rem; */
+    margin-left: 5rem !important;
   }
   .footer {
     font-size: 2rem;
@@ -416,15 +477,15 @@ and (max-device-width: 736px) {
 and (min-device-width: 375px)
 and (max-device-width: 812px) {
 
-  .body {
+  body {
     background-position: top !important;
     background-repeat: no-repeat;
     background-size: 70vh !important;
   }
 
-  .circle-img {
+  /* .circle-img {
     margin-left: 2.2rem !important;
-  }
+  } */
 
   .fs-3 {
     font-size: 24px !important;
@@ -461,9 +522,9 @@ and (max-device-width: 812px) {
     -webkit-overflow-scrolling: touch;
   }
     
-  .card {
+  /* .card {
       display: inline-block;
-    }
+    } */
 
   .App-footer {
     background-color: black;
