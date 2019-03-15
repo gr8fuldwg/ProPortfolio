@@ -55,6 +55,10 @@ a, u {
   line-height: 5rem;
 }
 
+.lh-3 {
+  line-height: 3rem;
+}
+
 .lh-10 {
   line-height: 10rem;
 }
@@ -69,6 +73,10 @@ a, u {
 
 .navbar-transparent-25 {   
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-transparent-27 {   
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .navbar-fixed-top .navbar-collapse {
@@ -159,12 +167,19 @@ a, u {
 .App-header {
   display: flex;
   justify-content: center;
-  
 }
 
 .App-footer {
   position: sticky;
   height: 4rem;
+}
+
+.current {
+  margin-left: 1rem;
+}
+
+.hourly-daily-text {
+  margin-left: 1rem;
 }
 
 .octicon {
@@ -196,11 +211,7 @@ a, u {
   margin-right: 200px;
 }
 
-
-
-
 /* Responsive Design */
-
 
 /* iPhone 5 */
 @media only screen
@@ -211,6 +222,7 @@ and (max-device-width: 568px) {
     background-position: top !important;
     background-repeat: no-repeat ;
     background-size: 70vh !important;
+    line-height: 1. rem;
   }
 
   .text-white {
@@ -225,7 +237,11 @@ and (max-device-width: 568px) {
   }
 
   .circle-img {
+    height: 300px;
+    width: 250px;
+    margin-left: 5rem;
     border-width: 5px;
+    margin-left: 2.2rem !important;
   }
 
   .drop-scroll {
@@ -261,11 +277,7 @@ and (max-device-width: 568px) {
     -webkit-overflow-scrolling: touch;
   }
 
-  .circle-img {
-    margin-left: 2.2rem !important;
-  }
-
-  .fs-3 {
+   .fs-3 {
     font-size: 24px !important;
   }
 
@@ -301,32 +313,37 @@ and (max-device-width: 568px) {
     line-height: 3rem;
   }
 
-  /* .line-height-5 {
-    line-height: 5rem !important;
-  } */
-
-  /* .lh-5 {
-    line-height: 5rem !important;
-  } */
-
-  /* .card {
-      display: inline-block;
-    } */
+  .col {
+    padding-left: 1rem !important;
+  }
   
+  .wh-sp-wr {
+    white-space: nowrap;
+  }
+
   .App-footer {
     background-color: black;
   }
 
-  .circle-img {
-    height: 300px;
-    width: 250px;
-    margin-left: 5rem;
-  }
+  .pb-4, .py-4 {
+    padding-bottom: 0 !important;
+}
+
+.pr-4, .px-4 {
+    padding-right: 0 !important;
+}
+
+  /* .pr-4, .px-4 {
+    padding-right: 0;
+} */
 
   .footer {
     font-size: 2rem;
   }
 }
+/* END OF iphone 5 */
+
+/* =========================================== */
 
 /* iPhone 6/7/8 */
 @media only screen
@@ -359,12 +376,24 @@ and (max-device-width: 667px) {
     width: 250px;
   }
 
+  .drop-scroll {
+    overflow: hidden;
+  }
+
+  .about-me {
+    margin-right: 0;
+  }
+
   .fs-3 {
     font-size: 24px !important;
   }
 
   .justify {
     justify-content: inherit !important;
+  }
+
+  .col {
+    padding-left: 44px;
   }
 
   .jokes-img {
@@ -390,13 +419,23 @@ and (max-device-width: 667px) {
   .scrolling-wrapper {
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     -webkit-overflow-scrolling: touch;
   }
     
-  /* .card {
-      display: inline-block;
-    } */
+  .scrolling-wrapper-2 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* white-space: nowrap; */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .scroll {
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
+    /* white-space: nowrap; */
+    -webkit-overflow-scrolling: touch;
+  }
 
   .App-footer {
     background-color: black;
@@ -405,8 +444,9 @@ and (max-device-width: 667px) {
   .footer {
     font-size: 2rem;
   }
-
 }
+/* END OF iphone 6/7/8 ======================================= */
+
 
 /* iPhone 6/7/8 Plus */
 @media only screen
@@ -450,7 +490,7 @@ and (max-device-width: 736px) {
   .scrolling-wrapper {
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     -webkit-overflow-scrolling: touch;
   }
     .card {
@@ -518,7 +558,7 @@ and (max-device-width: 812px) {
   .scrolling-wrapper {
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     -webkit-overflow-scrolling: touch;
   }
     

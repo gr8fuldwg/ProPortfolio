@@ -10,7 +10,6 @@ class App extends Component {
 
           <nav className="navbar-expand scrolling-wrapper d-flex navbar-transparent-25 d-flex pt-2 pb-2">
             <a className="navbar-brand nav-glow green-hover fs-24 pl-4 white" href="http://www.github.com/gr8fuldwg">Jon Josephson</a>
-            {/* <a href="#"></a> */}
             <ul className="navbar-nav scrollable-menu d-flex flex-fill justify-content-between pr-4 fs-22">
               <li className="nav-item dropdown ">
                 <a className="nav-link ml-4 nav-glow green-hover dropdown-toggle white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
@@ -111,10 +110,10 @@ class App extends Component {
         </section>
 
         <div className="projects-text">
-          <h2 className="lh-10 mt-4 text-white shadow-large text-center">A few projects to checkout</h2>
+          <h2 className="lh-10 mt-4 text-white shadow-large text-center">A few projects to check out</h2>
         </div>
 
-        <section className="navbar-transparent-25 lh-5 scrolling-wrapper rounded d-flex justify justify-content-center  mb-4 mr-4 ml-4" >
+        <section className="navbar-transparent-27 lh-3 scrolling-wrapper wh-sp-wr rounded d-flex justify justify-content-center  mb-4 mr-4 ml-4" >
           <div className="col">
             <div className="thumb-text d-flex justify-content-center">Jokes API</div>
             <a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded d-inline" /></a>
@@ -133,22 +132,11 @@ class App extends Component {
           </div>
         </section>
 
-        {/* <div className="scrolling-wrapper navbar-transparent-25 shadow-large rounded ">
-          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
-          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
-          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
-          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
-          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
-          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
-          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
-          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
-          <div className="card"><a href="https://gr8fuldwg.github.io/chuck-jokes/"><img className="hover-thumb  ml-5 mb-4 border-0 jokes-img rounded card" /></a></div>
-        </div> */}
+      
+      
+      {/* Footer */}
 
-
-
-        {/* <a href="mailto:youremailaddress">Email Me</a> */}
-        <section className="App-footer navbar  nav-glow fixed-bottom navbar-transparent-25 white">
+        <section className="App-footer navbar  nav-glow fixed-bottom navbar-transparent-27 white">
 
           <a href="mailto:jonjosephson1@gmail.com" className="d-flex white green-hover pt-2 pl-4 pb-4">
 
