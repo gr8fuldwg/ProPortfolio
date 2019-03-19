@@ -225,6 +225,13 @@ and (max-device-width: 568px) {
     line-height: 1. rem;
   }
 
+  .absolute {
+    position: absolute;
+    margin-top: 5rem;
+    margin-right: 5rem !important;
+    margin-left: 0;
+  }
+
   .text-white {
     color: black !important;
     padding: 1rem;
@@ -251,10 +258,6 @@ and (max-device-width: 568px) {
   .about-me {
     margin-right: 0;
   }
-  
-  /* .position-absolute {
-    position: absolute;
-  } */
 
   .scroll {
     overflow-x: scroll;
@@ -333,10 +336,6 @@ and (max-device-width: 568px) {
     padding-right: 0 !important;
 }
 
-  /* .pr-4, .px-4 {
-    padding-right: 0;
-} */
-
   .footer {
     font-size: 2rem;
   }
@@ -355,6 +354,14 @@ and (max-device-width: 667px) {
     background-repeat: no-repeat;
     background-size: 70vh !important;
   }
+
+  .absolute {
+    position: absolute;
+    margin-top: 5rem;
+    margin-right: 5rem !important;
+    margin-left: 0;
+  }
+
 
   .text-white {
     color: black !important;
@@ -397,7 +404,7 @@ and (max-device-width: 667px) {
   }
 
   .jokes-img {
-    margin-left: 0 !important;
+    margin-left: 1.5rem !important;
   }
 
   .daily {
@@ -405,11 +412,11 @@ and (max-device-width: 667px) {
   }
 
   .current {
-    margin-left: 6rem;
+    margin-left: 3rem !important;
   }
 
   .hourly-daily-text {
-    margin-left: 5.6rem;
+    margin-left: 3.5rem !important;
   }
 
   .lh-10 {
@@ -459,6 +466,14 @@ and (max-device-width: 736px) {
     background-size: 70vh !important;
   }
 
+  .absolute {
+    position: absolute;
+    margin-top: 5rem;
+    margin-right: 5rem !important;
+    margin-left: 0;
+  }
+
+
   .fs-3 {
     font-size: 24px !important;
   }
@@ -493,9 +508,10 @@ and (max-device-width: 736px) {
     /* white-space: nowrap; */
     -webkit-overflow-scrolling: touch;
   }
-    .card {
-      display: inline-block;
-    }
+
+  .jokes-img {
+    margin-left: 3rem !important;
+  }
 
   .App-footer {
     background-color: black;
@@ -523,9 +539,13 @@ and (max-device-width: 812px) {
     background-size: 70vh !important;
   }
 
-  /* .circle-img {
-    margin-left: 2.2rem !important;
-  } */
+  .absolute {
+    position: absolute;
+    margin-top: 5rem;
+    margin-right: 5rem !important;
+    margin-left: 0;
+  }
+
 
   .fs-3 {
     font-size: 24px !important;
@@ -536,8 +556,8 @@ and (max-device-width: 812px) {
   }
 
   .jokes-img {
-    margin-left: 0 !important;
-  }
+    margin-left: 1.5rem !important;
+}
 
   .daily {
     margin-right: 1rem;

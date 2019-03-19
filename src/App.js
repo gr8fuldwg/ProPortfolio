@@ -11,27 +11,27 @@ class App extends Component {
           <nav className="navbar-expand scrolling-wrapper d-flex navbar-transparent-25 d-flex pt-2 pb-2">
             <a className="navbar-brand nav-glow green-hover fs-24 pl-4 white" href="http://www.github.com/gr8fuldwg">Jon Josephson</a>
             <ul className="navbar-nav scrollable-menu d-flex flex-fill justify-content-between pr-4 fs-22">
-              <li className="nav-item dropdown ">
+              <li className="nav-item absolute dropdown">
                 <a className="nav-link ml-4 nav-glow green-hover dropdown-toggle white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
                 <div className="dropdown-menu  bg-dark">
-                  <a className="dropdown-item white  drop-green" href="https://pure-castle-46730.herokuapp.com/">Collaborative Weather App</a>
+                  <a className="dropdown-item white fixed drop-green" href="https://pure-castle-46730.herokuapp.com/">Collaborative Weather App</a>
                   <div className="dropdown-divider"></div>
-                  <h6 className="dropdown-header font-weight-bold">CSS-MIMICWORK </h6>
-                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/">Mimicwork Homepage</a>
-                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/spotify">Spotify</a>
-                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/github-nav">Github-Nav</a>
-                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/pinterest-page">Pinterest Page</a>
-                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/youtube-sidenav">YouTube-SideNav</a>
+                  <h6 className="dropdown-header fixed font-weight-bold">CSS-MIMICWORK </h6>
+                  <a className="dropdown-item white fixed drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/">Mimicwork Homepage</a>
+                  <a className="dropdown-item white fixed drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/spotify">Spotify</a>
+                  <a className="dropdown-item white fixed drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/github-nav">Github-Nav</a>
+                  <a className="dropdown-item white fixed drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/pinterest-page">Pinterest Page</a>
+                  <a className="dropdown-item white fixed drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/youtube-sidenav">YouTube-SideNav</a>
                   <div className="dropdown-divider"></div>
-                  <a className="dropdown-item  white drop-green " href="https://gr8fuldwg.github.io/lite-brite/">Lite-Brite Game</a>
+                  <a className="dropdown-item fixed white drop-green " href="https://gr8fuldwg.github.io/lite-brite/">Lite-Brite Game</a>
                   <div className="dropdown-divider"></div>
-                  <a className="dropdown-item white drop-green " href="https://gr8fuldwg.github.io/chuck-jokes/">'Jokes' API</a>
+                  <a className="dropdown-item white drop-green fixed" href="https://gr8fuldwg.github.io/chuck-jokes/">'Jokes' API</a>
                 </div>
               </li>
               <li className="nav-item " data-toggle="modal" data-target="#exampleModalLong">
                 <a className="nav-link about-me nav-glow green-hover margin-right-200 justify-content-center white" href="#">About Me</a>
 
-                {/* <!-- Modal --> */}
+                {/* <!-- ABOUT ME Modal --> */}
                 <div className="modal fade" id="exampleModalLong" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                   <div className="modal-dialog" role="document">
                     <div className="modal-content d-flex justify-content-center">
@@ -54,7 +54,7 @@ class App extends Component {
               <li className="nav-item">
                 <a className="nav-link green-hover nav-glow white" data-toggle="modal" data-target="#exampleModal" href="#">Contact</a>
 
-                {/* Contact Modal */}
+                {/* CONTACT Modal */}
 
                 <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div className="modal-dialog" role="document">
@@ -132,9 +132,9 @@ class App extends Component {
           </div>
         </section>
 
-      
-      
-      {/* Footer */}
+
+
+        {/* Footer */}
 
         <section className="App-footer navbar  nav-glow fixed-bottom navbar-transparent-27 white">
 
