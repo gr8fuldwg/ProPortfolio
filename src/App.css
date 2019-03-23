@@ -330,11 +330,15 @@ and (max-device-width: 568px) {
 
   .pb-4, .py-4 {
     padding-bottom: 0 !important;
-}
+  }
 
-.pr-4, .px-4 {
-    padding-right: 0 !important;
-}
+  .pr-4, .px-4 {
+      padding-right: 0 !important;
+  }
+
+  .pr {
+    padding-right: 2.5rem !important;
+  }
 
   .footer {
     font-size: 2rem;
@@ -451,6 +455,10 @@ and (max-device-width: 667px) {
   .footer {
     font-size: 2rem;
   }
+
+  .pr {
+    padding-right: 2.5rem !important;
+  }
 }
 /* END OF iphone 6/7/8 ======================================= */
 
@@ -526,6 +534,10 @@ and (max-device-width: 736px) {
     font-size: 2rem;
   }
 
+  .pr {
+    padding-right: 2.5rem !important;
+  }
+
 }
 
 /* iPhone 10 */
@@ -582,9 +594,9 @@ and (max-device-width: 812px) {
     -webkit-overflow-scrolling: touch;
   }
     
-  /* .card {
-      display: inline-block;
-    } */
+  .pr {
+    padding-right: 2.5rem !important;
+  }
 
   .App-footer {
     background-color: black;

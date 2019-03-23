@@ -138,12 +138,12 @@ class App extends Component {
 
         <section className="App-footer navbar  nav-glow fixed-bottom navbar-transparent-27 white">
 
-          <a href="mailto:jonjosephson1@gmail.com" className="d-flex white green-hover pt-2 pl-4 pb-4">
+          <a href="mailto:jonjosephson1@gmail.com" className="d-flex white green-hover pr pt-2 pl-4 pb-4">
 
             email: jonjosephson1@gmail.com</a>
 
           <div className="d-flex green-hover pt-2 pr-4 pb-4">
-            <a className="white green-hover" href="tel: 3522193194">
+            <a className="white green-hover pr" href="tel: 3522193194">
 
               cell: 352-219-3194</a>
 
