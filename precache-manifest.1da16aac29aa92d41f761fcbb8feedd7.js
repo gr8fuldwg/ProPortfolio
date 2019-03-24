@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/ProPortfolio/static/media/ChuckJokesPic.0b8242c2.png"
   },
   {
-    "revision": "c6013befd4a7bc079cae",
-    "url": "/ProPortfolio/static/css/main.b5d897c4.chunk.css"
+    "revision": "9af4d7d64c99a597ddab",
+    "url": "/ProPortfolio/static/css/main.8a4f0bf6.chunk.css"
   },
   {
     "revision": "e79610f39ecd944e8303",
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/ProPortfolio/static/media/bgpic3.c3cad2fe.jpg"
   },
   {
-    "revision": "c6013befd4a7bc079cae",
+    "revision": "9af4d7d64c99a597ddab",
     "url": "/ProPortfolio/static/js/main.5458c70d.chunk.js"
-  },
-  {
-    "revision": "92ebed13caad1d7e7b7268ee9ed1920e",
-    "url": "/ProPortfolio/static/media/WeatherAppPic1.92ebed13.PNG"
   },
   {
     "revision": "4579f3a0eeac7793cb2373d33aff14a0",
     "url": "/ProPortfolio/static/media/WeatherAppPic3.4579f3a0.PNG"
+  },
+  {
+    "revision": "92ebed13caad1d7e7b7268ee9ed1920e",
+    "url": "/ProPortfolio/static/media/WeatherAppPic1.92ebed13.PNG"
   },
   {
     "revision": "dc0922689430599e555e399a051cb216",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/ProPortfolio/static/media/headshot.bef81c23.jpg"
   },
   {
-    "revision": "38ec39a903a5721166eadbc32322bede",
+    "revision": "dc903b917660700e5d5fa768316cd2cc",
     "url": "/ProPortfolio/index.html"
   }
 ];
