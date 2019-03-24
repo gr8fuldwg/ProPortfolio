@@ -336,9 +336,7 @@ and (max-device-width: 568px) {
       padding-right: 0 !important;
   }
 
-  .pr {
-    padding-right: 2.5rem !important;
-  }
+  
 
   .footer {
     font-size: 2rem;
