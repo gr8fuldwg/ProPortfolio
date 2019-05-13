@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "eslint": "^5.16.0",
     "jshint": "^2.10.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "^3.0.1",
     "typescript": "^3.3.4000"
   },
   "scripts": {
