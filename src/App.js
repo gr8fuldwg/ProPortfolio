@@ -44,9 +44,10 @@ class App extends Component {
                         A creative web developer who is passionate about coding. Loves learning and 
                         implementing new techonologies while staying up to speed on modern computing. 
                         Graduate of <a href="http://gainesvilledevacademy.com/" className="green-hover">
-                          Gainesville Dev Academy</a> (GDEV), a fully immersive coding bootcamp. Computer 
-                          programming is about solving problems. Learning and solving problems are both passions 
-                          of mine.
+                        Gainesville Dev Academy</a> (GDEV), a fully immersive coding bootcamp. Computer 
+                        programming is about solving problems. Learning and solving problems are my two
+                        biggest passions.
+                        
                 </div>
                       <div className="modal-footer">
                         <button type="button" className="btn nav-glow green-hover btn-secondary" data-dismiss="modal">Close</button>
