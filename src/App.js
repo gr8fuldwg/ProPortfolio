@@ -157,10 +157,8 @@ class App extends Component {
 
         </section>
       </div>
-    
-
     )
   }
-}
+};
 
 export default App;
