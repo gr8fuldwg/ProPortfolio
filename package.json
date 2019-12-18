@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "fibers": "^4.0.2",
-    "jquery": "^3.4.1",
     "jshint": "^2.10.2",
     "node-sass": "^4.13.0",
     "react": "^16.8.4",
