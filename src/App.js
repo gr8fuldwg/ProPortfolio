@@ -18,7 +18,7 @@ class App extends Component {
                   <div className="dropdown-divider"></div>
                   <h6 className="dropdown-header fixed font-weight-bold">CSS-MIMICWORK </h6>
                   <a className="dropdown-item white fixed drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/">Mimicwork Homepage</a>
-                  <a className="dropdown-item white fixed drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/spotify">Spotify</a>
+                  <a className="dropdown-item white fixed drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/spotify">Spotify Landing Page</a>
                   <a className="dropdown-item white fixed drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/github-nav">Github-Nav</a>
                   <a className="dropdown-item white fixed drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/pinterest-page">Pinterest Page</a>
                   <a className="dropdown-item white fixed drop-green " href="https://gr8fuldwg.github.io/css-mimicwork/youtube-sidenav">YouTube-SideNav</a>
