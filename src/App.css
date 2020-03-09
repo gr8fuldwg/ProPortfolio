@@ -14,7 +14,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a, u {
+a,
+u {
   text-decoration: none !important;
 }
 
@@ -28,7 +29,7 @@ a, u {
 }
 
 .hover-thumb {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .hover-thumb:hover {
@@ -38,17 +39,16 @@ a, u {
 .thumb-text {
   font-size: 20px;
   color: white;
-  text-shadow: 0 0 10px rgba(255, 255, 255, .8);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 /* .scrolling-wrapper {
   overflow-x: scroll;
   /* overflow-y: hidden; */
-  /* white-space: nowrap; */
-  /* -webkit-overflow-scrolling: touch;
-} */ */
-
-.lh-5 {
+/* white-space: nowrap; */
+/* -webkit-overflow-scrolling: touch;
+} */
+*/ .lh-5 {
   line-height: 4rem !important;
 }
 
@@ -64,19 +64,19 @@ a, u {
   line-height: 10rem;
 }
 
-.lh-20  {
+.lh-20 {
   line-height: 20rem;
 }
 
 .nav-glow {
-  text-shadow: 0 0 10px rgba(255, 255, 255, .8);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
-.navbar-transparent-25 {   
+.navbar-transparent-25 {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.navbar-transparent-27 {   
+.navbar-transparent-27 {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -215,15 +215,12 @@ a, u {
 /* Responsive Design */
 
 /* iPhone 5 */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px) {
-  
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   body {
     background-position: top !important;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-size: 70vh !important;
-    line-height: 1. rem;
+    line-height: 1 rem;
   }
 
   .absolute {
@@ -281,7 +278,7 @@ and (max-device-width: 568px) {
     -webkit-overflow-scrolling: touch;
   }
 
-   .fs-3 {
+  .fs-3 {
     font-size: 24px !important;
   }
 
@@ -320,7 +317,7 @@ and (max-device-width: 568px) {
   .col {
     padding-left: 1rem !important;
   }
-  
+
   .wh-sp-wr {
     white-space: nowrap;
   }
@@ -329,29 +326,84 @@ and (max-device-width: 568px) {
     background-color: black;
   }
 
-  .pb-4, .py-4 {
+  .pb-4,
+  .py-4 {
     padding-bottom: 0 !important;
   }
 
-  .pr-4, .px-4 {
-      padding-right: 0 !important;
+  .pr-4,
+  .px-4 {
+    padding-right: 0 !important;
   }
-
-  
 
   .footer {
     font-size: 2rem;
   }
 }
+
+/* Modal Responsiveness */
+@media (max-width: 480px) {
+  .modal {
+    height: 500px; /* Set a default max height of the modal (adjusted later)*/
+    position: fixed; /* Display modal in the centre of your screen */
+    overflow-y: scroll; /*  Ensure that the modal is scroll-able */
+    -webkit-overflow-scrolling: touch; /* Avoid having to use 2 finger scroll on iOS    */
+  }
+  .modal.fade.in {
+    top: 5px; /* Use more screen real estate */
+  }
+  .modal-body {
+    /* Increase the max height of the modal body to try & avoid both it,
+             * and the modal container having scroll bars which results in odd behavior */
+    max-height: 2400px;
+  }
+}
+
+/* Now adjust the height so it handles various screen sizes & orientations */
+/* You could make this as granular as you like, or have it more granular at common screen sizes
+     * but it should start at the height we set on .modal (i.e. 500px) & work down */
+@media (max-width: 480px) and (max-height: 500px) {
+  .modal {
+    height: 450px;
+  }
+}
+@media (max-width: 480px) and (max-height: 450px) {
+  .modal {
+    height: 400px;
+  }
+}
+@media (max-width: 480px) and (max-height: 400px) {
+  .modal {
+    height: 350px;
+  }
+}
+@media (max-width: 480px) and (max-height: 350px) {
+  .modal {
+    height: 300px;
+  }
+}
+@media (max-width: 480px) and (max-height: 300px) {
+  .modal {
+    height: 250px;
+  }
+}
+@media (max-width: 480px) and (max-height: 250px) {
+  .modal {
+    height: 200px;
+  }
+}
+@media (max-width: 480px) and (max-height: 200px) {
+  .modal {
+    height: 150px;
+  }
+}
+
 /* END OF iphone 5 */
 
 /* =========================================== */
 
 /* iPhone 6/7/8 */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px) {
-  
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   body {
     background-position: top !important;
     background-repeat: no-repeat;
@@ -364,7 +416,6 @@ and (max-device-width: 667px) {
     margin-right: 5rem !important;
     margin-left: 0;
   }
-
 
   .text-white {
     color: black !important;
@@ -432,7 +483,7 @@ and (max-device-width: 667px) {
     /* white-space: nowrap; */
     -webkit-overflow-scrolling: touch;
   }
-    
+
   .scrolling-wrapper-2 {
     overflow-x: scroll;
     overflow-y: hidden;
@@ -461,12 +512,8 @@ and (max-device-width: 667px) {
 }
 /* END OF iphone 6/7/8 ======================================= */
 
-
 /* iPhone 6/7/8 Plus */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px) {
-
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   body {
     background-position: top !important;
     background-repeat: no-repeat;
@@ -480,7 +527,6 @@ and (max-device-width: 736px) {
     margin-right: 5rem !important;
     margin-left: 0;
   }
-
 
   .fs-3 {
     font-size: 24px !important;
@@ -537,14 +583,10 @@ and (max-device-width: 736px) {
   .pr {
     padding-right: 2.5rem !important;
   }
-
 }
 
 /* iPhone 10 */
-@media only screen 
-and (min-device-width: 375px)
-and (max-device-width: 812px) {
-
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   body {
     background-position: top !important;
     background-repeat: no-repeat;
@@ -558,7 +600,6 @@ and (max-device-width: 812px) {
     margin-left: 0;
   }
 
-
   .fs-3 {
     font-size: 24px !important;
   }
@@ -569,7 +610,7 @@ and (max-device-width: 812px) {
 
   .jokes-img {
     margin-left: 1.5rem !important;
-}
+  }
 
   .daily {
     margin-right: 1rem;
@@ -593,7 +634,7 @@ and (max-device-width: 812px) {
     /* white-space: nowrap; */
     -webkit-overflow-scrolling: touch;
   }
-    
+
   .pr {
     padding-right: 2.5rem !important;
   }
@@ -601,5 +642,4 @@ and (max-device-width: 812px) {
   .App-footer {
     background-color: black;
   }
-
 }

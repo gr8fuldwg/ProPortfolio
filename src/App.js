@@ -47,8 +47,7 @@ class App extends Component {
                         Gainesville Dev Academy</a> (GDEV), a fully immersive coding bootcamp. Computer 
                         programming is about solving problems. Learning and solving problems are my two
                         biggest passions.
-                        
-                </div>
+                      </div>
                       <div className="modal-footer">
                         <button type="button" className="btn nav-glow green-hover btn-secondary" data-dismiss="modal">Close</button>
                       </div>
