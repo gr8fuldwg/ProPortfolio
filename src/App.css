@@ -471,6 +471,7 @@ and (max-device-width: 736px) {
     background-position: top !important;
     background-repeat: no-repeat;
     background-size: 70vh !important;
+    background-attachment: initial;
   }
 
   .absolute {
