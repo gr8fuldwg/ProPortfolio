@@ -32,7 +32,7 @@ class App extends Component {
                 <a className="nav-link about-me nav-glow green-hover margin-right-200 justify-content-center white" href="#">About Me</a>
 
                 {/* <!-- ABOUT ME Modal --> */}
-                <div className="modal fade" id="exampleModalLong" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div className="modal clickable fade" id="exampleModalLong" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                   <div className="modal-dialog" role="document">
                     <div className="modal-content d-flex justify-content-center">
                       <div className="modal-header">
@@ -61,7 +61,7 @@ class App extends Component {
 
                 {/* CONTACT Modal */}
 
-                <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal clickable " id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div className="modal-dialog" role="document">
                     <div className="modal-content">
 

@@ -223,6 +223,10 @@ u {
     line-height: 1 rem;
   }
 
+  .clickable {
+    cursor:pointer;
+ }
+
   .absolute {
     position: absolute;
     margin-top: 5rem;
@@ -410,6 +414,10 @@ u {
     background-size: 70vh !important;
   }
 
+  .clickable {
+    cursor:pointer;
+ }
+
   .absolute {
     position: absolute;
     margin-top: 5rem;
@@ -521,6 +529,10 @@ u {
     background-attachment: initial;
   }
 
+  .clickable {
+    cursor:pointer;
+ }
+
   .absolute {
     position: absolute;
     margin-top: 5rem;
@@ -592,6 +604,10 @@ u {
     background-repeat: no-repeat;
     background-size: 70vh !important;
   }
+
+  .clickable {
+    cursor:pointer;
+ }
 
   .absolute {
     position: absolute;
